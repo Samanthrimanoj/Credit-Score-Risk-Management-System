@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": "http://localhost:3000"}})
 
 # ---------------------------------------------------------
-# 1. MODEL INITIALIZATION & DATA GENERATION
+# 1. MODEL INITIALIZATION & DATA GENERATION -main2 branch
 # ---------------------------------------------------------
 def generate_synthetic_data(n_samples=1500):
     np.random.seed(42)
